@@ -1,3 +1,4 @@
+import dev.knt.entities.ArrayProfile;
 import dev.knt.utilities.ArrayMaker;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -17,9 +18,11 @@ public class array_maker{
     void can_make_merged_array(){
         int[] nums1 = {1,2,3};
         int[] nums2 = {3,4,5,6};
+        ArrayProfile nums1Prof = new ArrayProfile(3, nums1);
+        ArrayProfile nums2Prof = new ArrayProfile(4, nums2);
         ArrayMaker arrayMerger = new ArrayMaker();
 
-        arrayMerger.setMergedArray(nums1.length, nums1, nums2.length, nums2);
+        arrayMerger.setMergedArray(nums1Prof, nums2Prof);
 
         Assertions.assertTrue((arrayMerger.getNewArray().length==7));
     }
