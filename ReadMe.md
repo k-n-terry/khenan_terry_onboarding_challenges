@@ -1,6 +1,7 @@
-# Khenan's Answers To Weekly Onboarding Questions
+# Khenan's Weekly Onboarding Code
 - JDK 11
 - Corretto Distribution
+- JUnit 5
 
-# Checking Answers
-- Check in "src/test/java/" for test cases.
+## Checking Answers
+- Check test cases in: [src/test/java/](https://github.com/k-n-terry/khenan_terry_onboarding_challenges/tree/master/src/test/java)
