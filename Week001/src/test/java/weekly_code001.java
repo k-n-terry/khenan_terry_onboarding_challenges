@@ -1,4 +1,4 @@
-public class weekly_code001_test {
+public class weekly_code001 {
     public static void main(String[] args){
 
     }
