@@ -7,11 +7,11 @@ import dev.knt.utilities.FindArrayMedian;
 import java.util.Arrays;
 import java.util.Random;
 
-public class WeeklyCode001{
+public class Main{
     public static void main(String[] args){
         Random r = new Random();
-        int m = r.nextInt(11);
-        int n = r.nextInt(11);
+        int m = r.nextInt(1001);
+        int n = r.nextInt(1001);
         int[] nums1;
         int[] nums2;
         int[] numsMerge;
