@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 
 public class LinkedListMaker{
     /* Fields */
+    private int[] linkedListArray;
     private int length;
     private Random r = new Random();
     private List<Integer> newLinkedList;
@@ -33,7 +34,10 @@ public class LinkedListMaker{
         this.newLinkedListProfile = dataStructureProfile;
     }
     public void setMergedLinkedList(DataStructureProfile dataStructureProfile){
+        this.linkedListArray = dataStructureProfile.getLinkedListArray();
+        for(int i=0; i<dataStructureProfile.getLength(); i++){
 
+        }
     }
 
     /* Getters */
